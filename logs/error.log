@@ -1,0 +1,9 @@
+[08-Apr-2025 12:35:00 PRC] INDEX.PHP 会话状态: {"has_member_id":false,"has_verified":false,"session_id":"0ebcae2i8ibe8kcv3v329aabn6"}
+[08-Apr-2025 12:40:00 PRC] INDEX.PHP 会话状态: {"has_member_id":false,"has_verified":false,"session_id":"76cbinurbh7rbfo33svj50akna"}
+[08-Apr-2025 12:41:00 PRC] INDEX.PHP 会话状态: {"has_member_id":false,"has_verified":false,"session_id":"8je2cflhv2apps71nq65t9o00h"}
+[08-Apr-2025 12:41:08 PRC] INDEX.PHP 会话状态: {"has_member_id":false,"has_verified":false,"session_id":"apmifr8m5v7qgceqif35mg6adp"}
+[08-Apr-2025 12:41:20 PRC] INDEX.PHP 会话状态: {"has_member_id":false,"has_verified":false,"session_id":"apmifr8m5v7qgceqif35mg6adp"}
+[08-Apr-2025 12:41:20 PRC] 验证码验证失败: 验证码为空或会话中不存在验证码。用户输入=[uwbu], 会话中验证码存在=否
+[08-Apr-2025 12:41:30 PRC] INDEX.PHP 会话状态: {"has_member_id":false,"has_verified":false,"session_id":"apmifr8m5v7qgceqif35mg6adp"}
+[08-Apr-2025 12:41:30 PRC] 验证码验证失败: 验证码为空或会话中不存在验证码。用户输入=[5zfb], 会话中验证码存在=否
+[08-Apr-2025 12:42:00 PRC] INDEX.PHP 会话状态: {"has_member_id":false,"has_verified":false,"session_id":"kc50mucoqblr6gcp5aabkk993p"}

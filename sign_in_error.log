@@ -1,0 +1,719 @@
+[08-Apr-2025 09:17:39 PRC] ===== 签到请求开始处理 - 2025-04-08 09:17:39 =====
+[08-Apr-2025 09:17:39 PRC] 用户IP: 172.68.44.133
+[08-Apr-2025 09:17:39 PRC] 用户ID: 1
+[08-Apr-2025 09:17:39 PRC] 会话数据: Array
+(
+    [csrf_token] => 22865474c86c25bdde68f72abae5350024e133a4ba380b988d44451b103d3265
+    [captcha_time] => 1744075009
+    [registration_success] => 1
+    [registered_username] => aaa
+    [member_id] => 1
+    [member_username] => aaa
+    [member_email] => woyaozuofeiji@gmail.com
+    [member_points] => 20
+    [member_invite_code] => U6BWD21A
+    [member_login_time] => 1744075052
+    [verified] => 1
+    [verified_time] => 1744075052
+    [last_activity] => 1744075053
+)
+
+[08-Apr-2025 09:17:39 PRC] 会员系统类已加载
+[08-Apr-2025 09:17:39 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[08-Apr-2025 09:17:39 PRC] MemberSystem实例已创建
+[08-Apr-2025 09:17:39 PRC] 开始执行签到 - 用户ID: 1
+[08-Apr-2025 09:17:39 PRC] doDailySignIn - 开始签到流程，会员ID: 1
+[08-Apr-2025 09:17:39 PRC] doDailySignIn - 签到奖励积分: 20
+[08-Apr-2025 09:17:39 PRC] doDailySignIn - 开始数据库事务
+[08-Apr-2025 09:17:39 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[08-Apr-2025 09:17:39 PRC] addPoints - 开始添加积分: 会员ID=1, 积分=20, 描述=每日签到奖励, 使用事务=
+[08-Apr-2025 09:17:39 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[08-Apr-2025 09:17:39 PRC] addPoints - 积分交易记录已添加, ID: 2
+[08-Apr-2025 09:17:39 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[08-Apr-2025 09:17:39 PRC] doDailySignIn - 事务已提交
+[08-Apr-2025 09:17:39 PRC] doDailySignIn - 签到成功，获得 20 积分
+[08-Apr-2025 09:17:39 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[08-Apr-2025 09:17:39 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[08-Apr-2025 09:17:39 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[08-Apr-2025 09:17:39 PRC] ===== 签到请求处理完成 - 2025-04-08 09:17:39 =====
+
+[08-Apr-2025 09:32:07 PRC] ===== 签到请求开始处理 - 2025-04-08 09:32:07 =====
+[08-Apr-2025 09:32:07 PRC] 用户IP: 172.68.44.137
+[08-Apr-2025 09:32:07 PRC] 用户ID: 1
+[08-Apr-2025 09:32:07 PRC] 会话数据: Array
+(
+    [csrf_token] => 4b2d95635c94d62b6a1aad084a900599a0ae69030970c0a5da837b3bc885c96d
+    [captcha_time] => 1744075912
+    [admin_logged_in] => 1
+    [admin_id] => 1
+    [admin_username] => arms
+    [admin_last_activity] => 1744075905
+    [registration_success] => 1
+    [registered_username] => aaa
+    [member_id] => 1
+    [member_username] => aaa
+    [member_email] => woyaozuofeiji@gmail.com
+    [member_points] => 20
+    [member_invite_code] => MP042ILB
+    [member_login_time] => 1744075872
+    [verified] => 1
+    [verified_time] => 1744075872
+    [last_activity] => 1744075912
+    [captcha] => PERT
+)
+
+[08-Apr-2025 09:32:07 PRC] 会员系统类已加载
+[08-Apr-2025 09:32:07 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[08-Apr-2025 09:32:07 PRC] MemberSystem实例已创建
+[08-Apr-2025 09:32:07 PRC] 开始执行签到 - 用户ID: 1
+[08-Apr-2025 09:32:07 PRC] doDailySignIn - 开始签到流程，会员ID: 1
+[08-Apr-2025 09:32:07 PRC] doDailySignIn - 签到奖励积分: 20
+[08-Apr-2025 09:32:07 PRC] doDailySignIn - 开始数据库事务
+[08-Apr-2025 09:32:07 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[08-Apr-2025 09:32:07 PRC] addPoints - 开始添加积分: 会员ID=1, 积分=20, 描述=每日签到奖励, 使用事务=
+[08-Apr-2025 09:32:07 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[08-Apr-2025 09:32:07 PRC] addPoints - 积分交易记录已添加, ID: 2
+[08-Apr-2025 09:32:07 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[08-Apr-2025 09:32:07 PRC] doDailySignIn - 事务已提交
+[08-Apr-2025 09:32:07 PRC] doDailySignIn - 签到成功，获得 20 积分
+[08-Apr-2025 09:32:07 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[08-Apr-2025 09:32:07 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[08-Apr-2025 09:32:07 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[08-Apr-2025 09:32:07 PRC] ===== 签到请求处理完成 - 2025-04-08 09:32:07 =====
+
+[08-Apr-2025 12:23:29 PRC] ===== 签到请求开始处理 - 2025-04-08 12:23:29 =====
+[08-Apr-2025 12:23:29 PRC] 用户IP: 2001:fb1:44:5b7c:314e:47dc:2e97:46c1
+[08-Apr-2025 12:23:29 PRC] 用户ID: 4
+[08-Apr-2025 12:23:29 PRC] 会话数据: Array
+(
+    [csrf_token] => 01635c5f4f03c366c25c77dad7a5e2a720a4a973786a0321f90bf361ef0200c4
+    [captcha_time] => 1744086190
+    [registration_success] => 1
+    [registered_username] => aaa
+    [member_id] => 4
+    [member_username] => aaa
+    [member_email] => woyaozuofeiji@gmail.com
+    [member_points] => 20
+    [member_invite_code] => B96PR4HX
+    [member_login_time] => 1744086206
+    [verified] => 1
+    [verified_time] => 1744086206
+    [last_activity] => 1744086207
+)
+
+[08-Apr-2025 12:23:29 PRC] 会员系统类已加载
+[08-Apr-2025 12:23:29 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[08-Apr-2025 12:23:29 PRC] MemberSystem实例已创建
+[08-Apr-2025 12:23:29 PRC] 开始执行签到 - 用户ID: 4
+[08-Apr-2025 12:23:29 PRC] doDailySignIn - 开始签到流程，会员ID: 4
+[08-Apr-2025 12:23:29 PRC] doDailySignIn - 签到奖励积分: 20
+[08-Apr-2025 12:23:29 PRC] doDailySignIn - 开始数据库事务
+[08-Apr-2025 12:23:29 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[08-Apr-2025 12:23:29 PRC] addPoints - 开始添加积分: 会员ID=4, 积分=20, 描述=每日签到奖励, 使用事务=
+[08-Apr-2025 12:23:29 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[08-Apr-2025 12:23:29 PRC] addPoints - 积分交易记录已添加, ID: 7
+[08-Apr-2025 12:23:29 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[08-Apr-2025 12:23:29 PRC] doDailySignIn - 事务已提交
+[08-Apr-2025 12:23:29 PRC] doDailySignIn - 签到成功，获得 20 积分
+[08-Apr-2025 12:23:29 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[08-Apr-2025 12:23:29 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[08-Apr-2025 12:23:29 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[08-Apr-2025 12:23:29 PRC] ===== 签到请求处理完成 - 2025-04-08 12:23:29 =====
+
+[08-Apr-2025 12:24:50 PRC] ===== 签到请求开始处理 - 2025-04-08 12:24:50 =====
+[08-Apr-2025 12:24:50 PRC] 用户IP: 1.46.84.68
+[08-Apr-2025 12:24:50 PRC] 用户ID: 5
+[08-Apr-2025 12:24:50 PRC] 会话数据: Array
+(
+    [csrf_token] => 523948c5d41fb436ce7a38bb03e53ca2a698a3a15b544a3d71363422f82b02a3
+    [captcha_time] => 1744086246
+    [registration_success] => 1
+    [registered_username] => bbb
+    [member_id] => 5
+    [member_username] => bbb
+    [member_email] => bbb@gmail.com
+    [member_points] => 20
+    [member_invite_code] => U8ZE8PAV
+    [member_login_time] => 1744086274
+    [verified] => 1
+    [verified_time] => 1744086274
+    [last_activity] => 1744086275
+)
+
+[08-Apr-2025 12:24:50 PRC] 会员系统类已加载
+[08-Apr-2025 12:24:50 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[08-Apr-2025 12:24:50 PRC] MemberSystem实例已创建
+[08-Apr-2025 12:24:50 PRC] 开始执行签到 - 用户ID: 5
+[08-Apr-2025 12:24:50 PRC] doDailySignIn - 开始签到流程，会员ID: 5
+[08-Apr-2025 12:24:50 PRC] doDailySignIn - 签到奖励积分: 20
+[08-Apr-2025 12:24:50 PRC] doDailySignIn - 开始数据库事务
+[08-Apr-2025 12:24:50 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[08-Apr-2025 12:24:50 PRC] addPoints - 开始添加积分: 会员ID=5, 积分=20, 描述=每日签到奖励, 使用事务=
+[08-Apr-2025 12:24:50 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[08-Apr-2025 12:24:50 PRC] addPoints - 积分交易记录已添加, ID: 10
+[08-Apr-2025 12:24:50 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[08-Apr-2025 12:24:50 PRC] doDailySignIn - 事务已提交
+[08-Apr-2025 12:24:50 PRC] doDailySignIn - 签到成功，获得 20 积分
+[08-Apr-2025 12:24:50 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[08-Apr-2025 12:24:50 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[08-Apr-2025 12:24:50 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[08-Apr-2025 12:24:50 PRC] ===== 签到请求处理完成 - 2025-04-08 12:24:50 =====
+
+[08-Apr-2025 12:57:08 PRC] ===== 签到请求开始处理 - 2025-04-08 12:57:08 =====
+[08-Apr-2025 12:57:08 PRC] 用户IP: 27.124.6.190
+[08-Apr-2025 12:57:08 PRC] 用户ID: 6
+[08-Apr-2025 12:57:08 PRC] 会话数据: Array
+(
+    [csrf_token] => 05f28e67ae6039882213e5badfd6228b375e070f7d0f785127d5b8ebb1f58af6
+    [captcha_time] => 1744088204
+    [registration_success] => 1
+    [registered_username] => ccc
+    [member_id] => 6
+    [member_username] => ccc
+    [member_email] => ccc@gmail.com
+    [member_points] => 20
+    [member_invite_code] => J8TL7PA5
+    [member_login_time] => 1744088222
+    [verified] => 1
+    [verified_time] => 1744088222
+    [last_activity] => 1744088223
+)
+
+[08-Apr-2025 12:57:08 PRC] 会员系统类已加载
+[08-Apr-2025 12:57:08 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[08-Apr-2025 12:57:08 PRC] MemberSystem实例已创建
+[08-Apr-2025 12:57:08 PRC] 开始执行签到 - 用户ID: 6
+[08-Apr-2025 12:57:08 PRC] doDailySignIn - 开始签到流程，会员ID: 6
+[08-Apr-2025 12:57:08 PRC] doDailySignIn - 签到奖励积分: 20
+[08-Apr-2025 12:57:08 PRC] doDailySignIn - 开始数据库事务
+[08-Apr-2025 12:57:08 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[08-Apr-2025 12:57:08 PRC] addPoints - 开始添加积分: 会员ID=6, 积分=20, 描述=每日签到奖励, 使用事务=
+[08-Apr-2025 12:57:08 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[08-Apr-2025 12:57:08 PRC] addPoints - 积分交易记录已添加, ID: 12
+[08-Apr-2025 12:57:08 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[08-Apr-2025 12:57:08 PRC] doDailySignIn - 事务已提交
+[08-Apr-2025 12:57:08 PRC] doDailySignIn - 签到成功，获得 20 积分
+[08-Apr-2025 12:57:08 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[08-Apr-2025 12:57:08 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[08-Apr-2025 12:57:08 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[08-Apr-2025 12:57:08 PRC] ===== 签到请求处理完成 - 2025-04-08 12:57:08 =====
+
+[09-Apr-2025 22:52:52 PRC] ===== 签到请求开始处理 - 2025-04-09 22:52:52 =====
+[09-Apr-2025 22:52:52 PRC] 用户IP: 2408:8440:b518:371e:a858:642d:476c:2a1
+[09-Apr-2025 22:52:52 PRC] 用户ID: 12
+[09-Apr-2025 22:52:52 PRC] 会话数据: Array
+(
+    [csrf_token] => 044588e3a3ccd0bd4684ca06ee2034b9c750a9b817f5b03a17c352da2de02ac7
+    [captcha_time] => 1744210298
+    [registration_success] => 1
+    [registered_username] => y1220228579
+    [member_id] => 12
+    [member_username] => y1220228579
+    [member_email] => 1220228579@qq.com
+    [member_points] => 20
+    [member_invite_code] => H3UD30OZ
+    [member_login_time] => 1744210351
+    [verified] => 1
+    [verified_time] => 1744210351
+    [last_activity] => 1744210352
+)
+
+[09-Apr-2025 22:52:52 PRC] 会员系统类已加载
+[09-Apr-2025 22:52:52 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[09-Apr-2025 22:52:52 PRC] MemberSystem实例已创建
+[09-Apr-2025 22:52:52 PRC] 开始执行签到 - 用户ID: 12
+[09-Apr-2025 22:52:52 PRC] doDailySignIn - 开始签到流程，会员ID: 12
+[09-Apr-2025 22:52:52 PRC] doDailySignIn - 签到奖励积分: 20
+[09-Apr-2025 22:52:52 PRC] doDailySignIn - 开始数据库事务
+[09-Apr-2025 22:52:52 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[09-Apr-2025 22:52:52 PRC] addPoints - 开始添加积分: 会员ID=12, 积分=20, 描述=每日签到奖励, 使用事务=
+[09-Apr-2025 22:52:52 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[09-Apr-2025 22:52:52 PRC] addPoints - 积分交易记录已添加, ID: 19
+[09-Apr-2025 22:52:52 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[09-Apr-2025 22:52:52 PRC] doDailySignIn - 事务已提交
+[09-Apr-2025 22:52:52 PRC] doDailySignIn - 签到成功，获得 20 积分
+[09-Apr-2025 22:52:52 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[09-Apr-2025 22:52:52 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[09-Apr-2025 22:52:52 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[09-Apr-2025 22:52:52 PRC] ===== 签到请求处理完成 - 2025-04-09 22:52:52 =====
+
+[10-Apr-2025 22:22:30 PRC] ===== 签到请求开始处理 - 2025-04-10 22:22:30 =====
+[10-Apr-2025 22:22:30 PRC] 用户IP: 2408:8440:b500:a17:19ac:169a:81a5:1537
+[10-Apr-2025 22:22:30 PRC] 用户ID: 12
+[10-Apr-2025 22:22:30 PRC] 会话数据: Array
+(
+    [csrf_token] => bec470cf5a9142013bd92a0c16ea548e3cdf11883486513d2fd4c0f569e73175
+    [captcha_time] => 1744294809
+    [member_id] => 12
+    [member_username] => y1220228579
+    [member_email] => 1220228579@qq.com
+    [member_points] => 40
+    [member_invite_code] => H3UD30OZ
+    [member_login_time] => 1744294833
+    [verified] => 1
+    [verified_time] => 1744294833
+    [last_activity] => 1744294927
+)
+
+[10-Apr-2025 22:22:30 PRC] 会员系统类已加载
+[10-Apr-2025 22:22:30 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[10-Apr-2025 22:22:30 PRC] MemberSystem实例已创建
+[10-Apr-2025 22:22:30 PRC] 开始执行签到 - 用户ID: 12
+[10-Apr-2025 22:22:30 PRC] doDailySignIn - 开始签到流程，会员ID: 12
+[10-Apr-2025 22:22:30 PRC] doDailySignIn - 签到奖励积分: 20
+[10-Apr-2025 22:22:30 PRC] doDailySignIn - 开始数据库事务
+[10-Apr-2025 22:22:30 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[10-Apr-2025 22:22:30 PRC] addPoints - 开始添加积分: 会员ID=12, 积分=20, 描述=每日签到奖励, 使用事务=
+[10-Apr-2025 22:22:30 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[10-Apr-2025 22:22:30 PRC] addPoints - 积分交易记录已添加, ID: 22
+[10-Apr-2025 22:22:30 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[10-Apr-2025 22:22:30 PRC] doDailySignIn - 事务已提交
+[10-Apr-2025 22:22:30 PRC] doDailySignIn - 签到成功，获得 20 积分
+[10-Apr-2025 22:22:30 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[10-Apr-2025 22:22:30 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[10-Apr-2025 22:22:30 PRC] 积分已更新 - 旧积分: 40, 奖励积分: 20, 新积分: 60
+[10-Apr-2025 22:22:30 PRC] ===== 签到请求处理完成 - 2025-04-10 22:22:30 =====
+
+[12-Apr-2025 14:55:27 PRC] ===== 签到请求开始处理 - 2025-04-12 14:55:27 =====
+[12-Apr-2025 14:55:27 PRC] 用户IP: 2001:fb1:44:5b7c:7c6b:1872:1ae8:187
+[12-Apr-2025 14:55:27 PRC] 用户ID: 4
+[12-Apr-2025 14:55:27 PRC] 会话数据: Array
+(
+    [csrf_token] => 18f12a760b48874ae93d3f89370b41e09370a3020ca19fcd75d4ed81beff1a67
+    [captcha_time] => 1744440888
+    [member_id] => 4
+    [member_username] => aaa
+    [member_email] => woyaozuofeiji@gmail.com
+    [member_points] => 90
+    [member_invite_code] => B96PR4HX
+    [member_login_time] => 1744440901
+    [verified] => 1
+    [verified_time] => 1744440901
+    [last_activity] => 1744440924
+    [key_warning_logged] => 1
+    [client_key] => b4b8a8e6ede4037252787eacb9468f7e
+)
+
+[12-Apr-2025 14:55:27 PRC] 会员系统类已加载
+[12-Apr-2025 14:55:27 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[12-Apr-2025 14:55:27 PRC] MemberSystem实例已创建
+[12-Apr-2025 14:55:27 PRC] 开始执行签到 - 用户ID: 4
+[12-Apr-2025 14:55:27 PRC] doDailySignIn - 开始签到流程，会员ID: 4
+[12-Apr-2025 14:55:27 PRC] doDailySignIn - 签到奖励积分: 20
+[12-Apr-2025 14:55:27 PRC] doDailySignIn - 开始数据库事务
+[12-Apr-2025 14:55:27 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[12-Apr-2025 14:55:27 PRC] addPoints - 开始添加积分: 会员ID=4, 积分=20, 描述=每日签到奖励, 使用事务=
+[12-Apr-2025 14:55:27 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[12-Apr-2025 14:55:27 PRC] addPoints - 积分交易记录已添加, ID: 24
+[12-Apr-2025 14:55:27 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[12-Apr-2025 14:55:27 PRC] doDailySignIn - 事务已提交
+[12-Apr-2025 14:55:27 PRC] doDailySignIn - 签到成功，获得 20 积分
+[12-Apr-2025 14:55:27 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[12-Apr-2025 14:55:27 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[12-Apr-2025 14:55:27 PRC] 积分已更新 - 旧积分: 90, 奖励积分: 20, 新积分: 110
+[12-Apr-2025 14:55:27 PRC] ===== 签到请求处理完成 - 2025-04-12 14:55:27 =====
+
+[13-Apr-2025 00:19:05 PRC] ===== 签到请求开始处理 - 2025-04-13 00:19:05 =====
+[13-Apr-2025 00:19:05 PRC] 用户IP: 114.226.124.174
+[13-Apr-2025 00:19:05 PRC] 用户ID: 18
+[13-Apr-2025 00:19:05 PRC] 会话数据: Array
+(
+    [csrf_token] => ae6dd8104ec2ff3c9dfd76dea8edbc2f8d4aa2d021e7f599b08ff8ea65d3c7ff
+    [captcha_time] => 1744474520
+    [member_id] => 18
+    [member_username] => qwertyu
+    [member_email] => 2672810346@qq.com
+    [member_points] => 20
+    [member_invite_code] => P2637FY4
+    [member_login_time] => 1744474520
+    [verified] => 1
+    [verified_time] => 1744474520
+    [last_activity] => 1744474669
+    [captcha] => S22Y
+    [key_warning_logged] => 1
+    [client_key] => 6545900c63a3ef64ebbf51771dac0f7d
+)
+
+[13-Apr-2025 00:19:05 PRC] 会员系统类已加载
+[13-Apr-2025 00:19:05 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[13-Apr-2025 00:19:05 PRC] MemberSystem实例已创建
+[13-Apr-2025 00:19:05 PRC] 开始执行签到 - 用户ID: 18
+[13-Apr-2025 00:19:05 PRC] doDailySignIn - 开始签到流程，会员ID: 18
+[13-Apr-2025 00:19:05 PRC] doDailySignIn - 签到奖励积分: 20
+[13-Apr-2025 00:19:05 PRC] doDailySignIn - 开始数据库事务
+[13-Apr-2025 00:19:05 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[13-Apr-2025 00:19:05 PRC] addPoints - 开始添加积分: 会员ID=18, 积分=20, 描述=每日签到奖励, 使用事务=
+[13-Apr-2025 00:19:05 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[13-Apr-2025 00:19:05 PRC] addPoints - 积分交易记录已添加, ID: 28
+[13-Apr-2025 00:19:05 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[13-Apr-2025 00:19:05 PRC] doDailySignIn - 事务已提交
+[13-Apr-2025 00:19:05 PRC] doDailySignIn - 签到成功，获得 20 积分
+[13-Apr-2025 00:19:05 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[13-Apr-2025 00:19:05 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[13-Apr-2025 00:19:05 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[13-Apr-2025 00:19:05 PRC] ===== 签到请求处理完成 - 2025-04-13 00:19:05 =====
+
+[29-Apr-2025 19:30:11 PRC] ===== 签到请求开始处理 - 2025-04-29 19:30:11 =====
+[29-Apr-2025 19:30:11 PRC] 用户IP: 2001:fb1:46:f1e9:dcb9:7d91:5f08:dece
+[29-Apr-2025 19:30:11 PRC] 用户ID: 4
+[29-Apr-2025 19:30:11 PRC] 会话数据: Array
+(
+    [csrf_token] => 4cc75d8279a6d6f259ca322cff576248987f21af09820e2b42a8887c907627e1
+    [captcha_time] => 1745926136
+    [member_id] => 4
+    [member_username] => aaa
+    [member_email] => woyaozuofeiji@gmail.com
+    [member_points] => 110
+    [member_invite_code] => B96PR4HX
+    [member_login_time] => 1745926148
+    [verified] => 1
+    [verified_time] => 1745926148
+    [last_activity] => 1745926209
+    [key_warning_logged] => 1
+    [client_key] => 2c4ce49fd98409807c90f796ca41866d
+)
+
+[29-Apr-2025 19:30:11 PRC] 会员系统类已加载
+[29-Apr-2025 19:30:11 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[29-Apr-2025 19:30:11 PRC] MemberSystem实例已创建
+[29-Apr-2025 19:30:11 PRC] 开始执行签到 - 用户ID: 4
+[29-Apr-2025 19:30:11 PRC] doDailySignIn - 开始签到流程，会员ID: 4
+[29-Apr-2025 19:30:11 PRC] doDailySignIn - 签到奖励积分: 20
+[29-Apr-2025 19:30:11 PRC] doDailySignIn - 开始数据库事务
+[29-Apr-2025 19:30:11 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[29-Apr-2025 19:30:11 PRC] addPoints - 开始添加积分: 会员ID=4, 积分=20, 描述=每日签到奖励, 使用事务=
+[29-Apr-2025 19:30:11 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[29-Apr-2025 19:30:11 PRC] addPoints - 积分交易记录已添加, ID: 35
+[29-Apr-2025 19:30:11 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[29-Apr-2025 19:30:11 PRC] doDailySignIn - 事务已提交
+[29-Apr-2025 19:30:11 PRC] doDailySignIn - 签到成功，获得 20 积分
+[29-Apr-2025 19:30:11 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[29-Apr-2025 19:30:11 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[29-Apr-2025 19:30:11 PRC] 积分已更新 - 旧积分: 110, 奖励积分: 20, 新积分: 130
+[29-Apr-2025 19:30:11 PRC] ===== 签到请求处理完成 - 2025-04-29 19:30:11 =====
+
+[30-Apr-2025 20:16:07 PRC] ===== 签到请求开始处理 - 2025-04-30 20:16:07 =====
+[30-Apr-2025 20:16:07 PRC] 用户IP: 240e:446:3d23:96da:a882:a52d:8898:cecf
+[30-Apr-2025 20:16:07 PRC] 用户ID: 25
+[30-Apr-2025 20:16:07 PRC] 会话数据: Array
+(
+    [csrf_token] => e1e1e0cab1e70dee0a7bbe72a36e725d583db880107cfb4d2aefc549e63bffe0
+    [captcha_time] => 1746015314
+    [registration_success] => 1
+    [registered_username] => 51301047
+    [member_id] => 25
+    [member_username] => 51301047
+    [member_email] => 51301047@QQ.com
+    [member_points] => 20
+    [member_invite_code] => NN0ULTKL
+    [member_login_time] => 1746015355
+    [verified] => 1
+    [verified_time] => 1746015355
+    [last_activity] => 1746015356
+)
+
+[30-Apr-2025 20:16:07 PRC] 会员系统类已加载
+[30-Apr-2025 20:16:07 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[30-Apr-2025 20:16:07 PRC] MemberSystem实例已创建
+[30-Apr-2025 20:16:07 PRC] 开始执行签到 - 用户ID: 25
+[30-Apr-2025 20:16:07 PRC] doDailySignIn - 开始签到流程，会员ID: 25
+[30-Apr-2025 20:16:07 PRC] doDailySignIn - 签到奖励积分: 20
+[30-Apr-2025 20:16:07 PRC] doDailySignIn - 开始数据库事务
+[30-Apr-2025 20:16:07 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[30-Apr-2025 20:16:07 PRC] addPoints - 开始添加积分: 会员ID=25, 积分=20, 描述=每日签到奖励, 使用事务=
+[30-Apr-2025 20:16:07 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[30-Apr-2025 20:16:07 PRC] addPoints - 积分交易记录已添加, ID: 37
+[30-Apr-2025 20:16:07 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[30-Apr-2025 20:16:07 PRC] doDailySignIn - 事务已提交
+[30-Apr-2025 20:16:07 PRC] doDailySignIn - 签到成功，获得 20 积分
+[30-Apr-2025 20:16:07 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[30-Apr-2025 20:16:07 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[30-Apr-2025 20:16:07 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[30-Apr-2025 20:16:07 PRC] ===== 签到请求处理完成 - 2025-04-30 20:16:07 =====
+
+[01-May-2025 11:13:46 PRC] ===== 签到请求开始处理 - 2025-05-01 11:13:46 =====
+[01-May-2025 11:13:46 PRC] 用户IP: 240e:445:2856:96f5:1435:2ff:fe52:57a
+[01-May-2025 11:13:46 PRC] 用户ID: 27
+[01-May-2025 11:13:46 PRC] 会话数据: Array
+(
+    [csrf_token] => f50b9cd5fffc9d62394d7d5be81570e931362e6c23f04420790d2f8c3cf50217
+    [captcha_time] => 1746069207
+    [registration_success] => 1
+    [registered_username] => qwert
+    [member_id] => 27
+    [member_username] => qwert
+    [member_email] => 2844780340@qq.com
+    [member_points] => 20
+    [member_invite_code] => 81NWXUSS
+    [member_login_time] => 1746069193
+    [verified] => 1
+    [verified_time] => 1746069193
+    [last_activity] => 1746069213
+    [captcha] => 4NJJ
+)
+
+[01-May-2025 11:13:46 PRC] 会员系统类已加载
+[01-May-2025 11:13:46 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[01-May-2025 11:13:46 PRC] MemberSystem实例已创建
+[01-May-2025 11:13:46 PRC] 开始执行签到 - 用户ID: 27
+[01-May-2025 11:13:46 PRC] doDailySignIn - 开始签到流程，会员ID: 27
+[01-May-2025 11:13:46 PRC] doDailySignIn - 签到奖励积分: 20
+[01-May-2025 11:13:46 PRC] doDailySignIn - 开始数据库事务
+[01-May-2025 11:13:46 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[01-May-2025 11:13:46 PRC] addPoints - 开始添加积分: 会员ID=27, 积分=20, 描述=每日签到奖励, 使用事务=
+[01-May-2025 11:13:46 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[01-May-2025 11:13:46 PRC] addPoints - 积分交易记录已添加, ID: 40
+[01-May-2025 11:13:46 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[01-May-2025 11:13:46 PRC] doDailySignIn - 事务已提交
+[01-May-2025 11:13:46 PRC] doDailySignIn - 签到成功，获得 20 积分
+[01-May-2025 11:13:46 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[01-May-2025 11:13:46 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[01-May-2025 11:13:46 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[01-May-2025 11:13:46 PRC] ===== 签到请求处理完成 - 2025-05-01 11:13:46 =====
+
+[09-May-2025 21:29:41 PRC] ===== 签到请求开始处理 - 2025-05-09 21:29:41 =====
+[09-May-2025 21:29:41 PRC] 用户IP: 218.207.143.96
+[09-May-2025 21:29:41 PRC] 用户ID: 20
+[09-May-2025 21:29:41 PRC] 会话数据: Array
+(
+    [csrf_token] => 4b9c8ac742028af5c2d19a0b7c6412dca739299e93172ecce939651556587b52
+    [captcha_time] => 1746797275
+    [member_id] => 20
+    [member_username] => 123456
+    [member_email] => 894687798@qq.com
+    [member_points] => 20
+    [member_invite_code] => CW4HOMXW
+    [member_login_time] => 1746797288
+    [verified] => 1
+    [verified_time] => 1746797288
+    [last_activity] => 1746797377
+    [key_warning_logged] => 1
+    [client_key] => b450029cf8489a0d0977e63fb30c93d2
+)
+
+[09-May-2025 21:29:41 PRC] 会员系统类已加载
+[09-May-2025 21:29:41 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[09-May-2025 21:29:41 PRC] MemberSystem实例已创建
+[09-May-2025 21:29:41 PRC] 开始执行签到 - 用户ID: 20
+[09-May-2025 21:29:41 PRC] doDailySignIn - 开始签到流程，会员ID: 20
+[09-May-2025 21:29:41 PRC] doDailySignIn - 签到奖励积分: 20
+[09-May-2025 21:29:41 PRC] doDailySignIn - 开始数据库事务
+[09-May-2025 21:29:41 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[09-May-2025 21:29:41 PRC] addPoints - 开始添加积分: 会员ID=20, 积分=20, 描述=每日签到奖励, 使用事务=
+[09-May-2025 21:29:41 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[09-May-2025 21:29:41 PRC] addPoints - 积分交易记录已添加, ID: 42
+[09-May-2025 21:29:41 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[09-May-2025 21:29:41 PRC] doDailySignIn - 事务已提交
+[09-May-2025 21:29:41 PRC] doDailySignIn - 签到成功，获得 20 积分
+[09-May-2025 21:29:41 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[09-May-2025 21:29:41 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[09-May-2025 21:29:41 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[09-May-2025 21:29:41 PRC] ===== 签到请求处理完成 - 2025-05-09 21:29:41 =====
+
+[19-May-2025 17:21:59 PRC] ===== 签到请求开始处理 - 2025-05-19 17:21:59 =====
+[19-May-2025 17:21:59 PRC] 用户IP: 2001:fb1:47:7364:2183:d5d1:61e1:ffd9
+[19-May-2025 17:21:59 PRC] 用户ID: 30
+[19-May-2025 17:21:59 PRC] 会话数据: Array
+(
+    [csrf_token] => d6cbd7aed4ed9d5167dd0aa5c74b25780857d2b7d02231807def520e65b8f9d1
+    [captcha_time] => 1747646496
+    [registration_success] => 1
+    [registered_username] => sbsbsb
+    [member_id] => 30
+    [member_username] => sbsbsb
+    [member_email] => sbsbsb@gmail.com
+    [member_points] => 20
+    [member_invite_code] => IY7JCIXD
+    [member_login_time] => 1747646513
+    [verified] => 1
+    [verified_time] => 1747646513
+    [last_activity] => 1747646514
+)
+
+[19-May-2025 17:21:59 PRC] 会员系统类已加载
+[19-May-2025 17:21:59 PRC] MySQL连接成功：连接到 127.0.0.1:3306/sql_new_lurhqnfu
+[19-May-2025 17:21:59 PRC] MemberSystem实例已创建
+[19-May-2025 17:21:59 PRC] 开始执行签到 - 用户ID: 30
+[19-May-2025 17:21:59 PRC] doDailySignIn - 开始签到流程，会员ID: 30
+[19-May-2025 17:21:59 PRC] doDailySignIn - 签到奖励积分: 20
+[19-May-2025 17:21:59 PRC] doDailySignIn - 开始数据库事务
+[19-May-2025 17:21:59 PRC] doDailySignIn - 签到记录已插入 daily_sign_ins 表
+[19-May-2025 17:21:59 PRC] addPoints - 开始添加积分: 会员ID=30, 积分=20, 描述=每日签到奖励, 使用事务=
+[19-May-2025 17:21:59 PRC] addPoints - 会员积分已更新, 受影响行数: 1
+[19-May-2025 17:21:59 PRC] addPoints - 积分交易记录已添加, ID: 45
+[19-May-2025 17:21:59 PRC] doDailySignIn - 添加积分结果: Array
+(
+    [success] => 1
+    [message] => 积分增加成功
+    [points] => 20
+)
+
+[19-May-2025 17:21:59 PRC] doDailySignIn - 事务已提交
+[19-May-2025 17:21:59 PRC] doDailySignIn - 签到成功，获得 20 积分
+[19-May-2025 17:21:59 PRC] 签到结果: 成功 - 消息: 签到成功，获得20积分
+[19-May-2025 17:21:59 PRC] 完整结果数据: Array
+(
+    [success] => 1
+    [message] => 签到成功，获得20积分
+    [points] => 20
+)
+
+[19-May-2025 17:21:59 PRC] 积分已更新 - 旧积分: 20, 奖励积分: 20, 新积分: 40
+[19-May-2025 17:21:59 PRC] ===== 签到请求处理完成 - 2025-05-19 17:21:59 =====
+

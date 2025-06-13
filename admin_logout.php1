@@ -1,0 +1,5 @@
+<?php
+// 将旧路径请求重定向到新位置
+header('Location: woyaozuofeiji/admin_logout.php');
+exit;
+?> 
